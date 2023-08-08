@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BuyAirtimeActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/orange">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/back_circle"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction_history"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relnetworkoptionsairtime"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        tools:ignore="ContentDescription">
+
+        <ImageView
+            android:id="@+id/mtn_imgairtime"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/mtn_img" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/glo_img"
+            android:id="@+id/glo_imgairtime"
+            android:layout_margin="10dp"
+            />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/airtel_img"
+            android:id="@+id/airtel_imgairtime" />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/etisalat_img"
+            android:id="@+id/etisalat_imgairtime"
+            tools:ignore="ContentDescription" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relbuyairtimedetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/enterairtimephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="phone"
+            android:background="@drawable/half_round_white_bg"
+            android:elevation="5dp"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:paddingStart="15dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="18dp"
+            android:textColorHint="@color/black"
+            android:textSize="18sp" />
+
+
+
+        <EditText
+            android:id="@+id/enterairtimeamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/half_round_white_bg"
+            android:elevation="5dp"
+            android:hint="@string/enter_amount"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:paddingStart="15dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="18dp"
+            android:textColorHint="@color/black"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/airtimebuybtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enterairtimeamount"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/half_round_white_bg"
+            android:backgroundTint="@color/orange"
+            android:padding="15dp"
+            android:text="Continue" />
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

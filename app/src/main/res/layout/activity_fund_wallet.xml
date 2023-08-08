@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/semi_grey"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FundWalletActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/orange">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/back_circle"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fund Wallet"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"/>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:layout_margin="10dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/halfroundwhitebg"
+                android:backgroundTint="@color/white"
+                android:padding="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/fundbankimg"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/halfroundwhitebg"
+                        android:backgroundTint="@color/semi_grey"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_baseline_add_home_work_24"
+                        app:tint="@color/orange"
+                        tools:ignore="ContentDescription" />
+
+
+                    <TextView
+                        android:id="@+id/transferbanktxt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/fundbankimg"
+                        android:text="Transfer Via Bank"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/transferbankfeetxt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/transferbanktxt1"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/fundbankimg"
+                        android:text="Add Money via bank transfer"
+                        android:textSize="14sp" />
+
+
+
+
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/halfroundwhitebg"
+                    android:backgroundTint="@color/white">
+
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kuda Bank - Anjorin Tosin"
+                        android:textSize="16sp"
+                        android:textStyle="normal"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0123456789"
+                        android:textColor="@color/orange"
+                        android:textSize="25sp"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        app:drawableEndCompat="@drawable/ic_baseline_content_copy_24" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/linscan_fund"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/halfroundwhitebg"
+                android:backgroundTint="@color/white"
+                android:layout_marginBottom="15dp"
+                android:padding="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/scanimg"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/halfroundwhitebg"
+                        android:backgroundTint="@color/semi_grey"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_baseline_qr_code_24"
+                        app:tint="@color/orange"
+                        tools:ignore="ContentDescription" />
+
+
+                    <TextView
+                        android:id="@+id/transferbanktxt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/scanimg"
+                        android:text="Scan QR code"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/transferbankfeetxt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/transferbanktxt2"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/scanimg"
+                        android:text="Add Money via bank transfer"
+                        android:textSize="14sp" />
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/linbank_fund"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/halfroundwhitebg"
+                android:backgroundTint="@color/white"
+                android:layout_marginBottom="15dp"
+                android:padding="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/paystackimg"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/halfroundwhitebg"
+                        android:backgroundTint="@color/semi_grey"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_baseline_payment_24"
+                        app:tint="@color/orange"
+                        tools:ignore="ContentDescription" />
+
+
+                    <TextView
+                        android:id="@+id/transferbanktxt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/paystackimg"
+                        android:text="Transfer Via Bank"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/transferbankfeetxt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/transferbanktxt3"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/paystackimg"
+                        android:text="Add Money via bank transfer"
+                        android:textSize="14sp" />
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BuyCableActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/orange">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/back_circle"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction_history"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relnetworkoptionscable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/dstv_imgcable"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/dstv_img" />
+
+        <ImageView
+            android:id="@+id/gotv_imgcable"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/dstv_imgcable"
+            android:src="@drawable/gotv_img" />
+
+        <ImageView
+            android:id="@+id/startimes_imgcable"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_toEndOf="@id/gotv_imgcable"
+            android:src="@drawable/startimes_img" />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/relbuycabledetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relnetworkoptionscable"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/entercablephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="password"
+            android:background="@drawable/half_round_white_bg"
+            android:elevation="5dp"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:padding="20dp"
+            android:textColorHint="@color/black"
+            android:textSize="18sp" />
+
+
+        <Spinner
+            android:id="@+id/selectcableplan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:entries="@array/banks"
+         android:padding="20dp"
+            android:popupElevation="20dp"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/cablebuybtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/entercablepin"
+            android:layout_gravity="end"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/half_round_white_bg"
+            android:backgroundTint="@color/orange"
+            android:padding="20dp"
+            android:text="Continue" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

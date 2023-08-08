@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Bana</string>
+    <string name="login">Login</string>
+    <string name="add_your_details_to_login">Add your details to login</string>
+    <string name="email_or_mobile">Email or Mobile</string>
+    <string name="password">Password</string>
+    <string name="enter_email_or_mobile">Enter Email or Mobile</string>
+    <string name="reset_password_subtext">Please enter your email or mobile to reset your password</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="new_password">New Password</string>
+    <string name="change_password_subtext">Please enter a new password for your account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="setting_up">Setting Up</string>
+    <string name="_1_of_4">1 of 4</string>
+    <string name="add_your_details_to_sign_up">Add your details to sign up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="_2_of_4">2 of 4</string>
+    <string name="your_pin_code">Your PIN Code</string>
+    <string name="_3_of_4">3 of 4</string>
+    <string name="set_pin_subtext">To set up your PIN create a 4 digit code then confirm it below</string>
+    <string name="otp">OTP</string>
+    <string name="otp_subtext"><![CDATA[We sent an OTP to your Mobile & Email]]></string>
+    <string name="_4_of_4">4 of 4</string>
+    <string name="forgot_otp_subtext"><![CDATA[We sent an OTP to your Mobile & Email]]></string>
+    <string name="next">Next</string>
+    <string name="almost_done">Almost Done</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="airtime">Airtime</string>
+    <string name="data">Data</string>
+    <string name="cable">Cable</string>
+    <string name="electricity">Electricity</string>
+    <string name="pay_bills">Pay Bills</string>
+    <string name="see_all">See All</string>
+    <string name="recent">Recent</string>
+    <string name="account_ballance_600_00">Account Ballance: ₦600.00</string>
+    <string name="continue_1">Continue</string>
+    <string name="account_name">Account name:</string>
+    <string name="bank_name">Bank name:</string>
+    <string name="account_number">Account number:</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="all">All</string>
+    <string name="debit">Debit</string>
+    <string name="credit">Credit</string>
+    <string name="phone_number">Phone number</string>
+    <string name="pin">Pin</string>
+    <string name="buy_data">Buy data</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="send_money">Send Money</string>
+
+
+    <!-- arrays -->
+
+    <array name="banks">
+        <item>bank 1</item>
+        <item>bank 1</item>
+        <item>bank 1</item>
+        <item>bank 1</item>
+        <item>bank 1</item>
+        <item>bank 1</item>
+        <item>bank 1</item>
+        <item>bank 1</item>
+        <item>bank 1</item>
+
+
+    </array>
+
+
+</resources>

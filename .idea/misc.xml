@@ -1,0 +1,59 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/david/Bana/app/src/main/res/drawable/bottome_round_bg.xml" value="0.1665" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/drawable/btnorangebg.xml" value="0.1665" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/drawable/fab_glow.xml" value="0.167" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/drawable/formbg.xml" value="0.1665" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/drawable/half_round_black_outline.xml" value="0.1665" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/drawable/half_round_white_bg.xml" value="0.1665" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/drawable/halfroundoutlinebg.xml" value="0.1665" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/drawable/halfroundwhitebg.xml" value="0.2065" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/drawable/pinbg.xml" value="0.1665" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/drawable/top_round_bg.xml" value="0.1665" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_add_withdrawal_acc.xml" value="0.25" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_buy_airtime.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_buy_cable.xml" value="0.1514070550931431" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_buy_data.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_change_password.xml" value="0.2" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_fund_wallet.xml" value="0.33" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_fund_wallet_amount.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_main.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_onboarding_info.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_otp_forgot_password.xml" value="0.2" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_otp_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_pay_bills.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_profile.xml" value="0.21" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_reset_password.xml" value="0.25" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_send_money.xml" value="0.33" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_send_money_confirm.xml" value="0.1633176571184267" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_send_money_to_bank.xml" value="0.25" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_set_pin.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_transaction_history.xml" value="0.5" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/activity_transfer_history.xml" value="0.25" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/fragment_pay_bills.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/david/Bana/app/src/main/res/layout/slider_layout.xml" value="0.19895833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="FindBugsConfigurable">
+    <option name="make" value="true" />
+    <option name="effort" value="default" />
+    <option name="priority" value="Medium" />
+    <option name="excludeFilter" value="" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressionsComponent">
+    <option name="suppComments" value="[]" />
+  </component>
+</project>
